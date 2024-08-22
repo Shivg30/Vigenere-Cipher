@@ -42,7 +42,7 @@ At the end of the part of the selected option, program-pointer returns to the st
 
 ### Sample Output
 
-![](images/Sample%20Output.png)
+![](Images/Sample%20Output.png)
 
 ## Robustness of Vigenère Cipher
 
@@ -50,7 +50,7 @@ Ever since the Vigenère cipher was created in the 16th century it was considere
 
 Babbage found that the vulnerability of the Vigenère cipher lied in its repetition of key. He found that whenever a word gets repeated in plaintext and lined up with the key in the similar manner, then characters would repeat at the same position in the cipher text, giving hint to the length of the key which makes it easier for attackers to guess the key once they know its length.
 
-![](images/Cipher%20robustness.png)
+![](Images/Cipher%20robustness.png)
 
 The above table shows explains how the Vigenère cipher can be cracked. The plain text used is “It is what it is” and keyword used is "code”. Since the phrase “it is” is repeated twice in the plain text and lines up perfectly with the key, so the text “KHLW” is repeated in the ciphertext at the same positions as phrase in the plaintext. As the text in ciphertext is repeated 8 letters apart, it can be guessed that the key’s length will be of the factor of 8.
 Possible lengths of the key are: 1,2,4,8. Key can’t be of length 1 as it would make the cipher a common Caesar cipher, among 2,4 and 8 key can be found by analysing the ciphertext.
