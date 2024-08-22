@@ -147,7 +147,7 @@ int Decrypt()
                 if(isalpha(key[j])) // Encrypting if the char of key is alphabet
                     decrypt[i]=(((cipherphrase[i] -'A') - (key[j] - 'A'))+26) % 26 +'A';
                 else
-                    decrypt[i]=cipherphrase[i]
+                    decrypt[i]=cipherphrase[i];
             }
                 
         // Leaving the text unchanged if it is a number or punctuation
